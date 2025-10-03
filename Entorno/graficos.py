@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-caracteres = ["GB%", "MJ2", "C$2", "v1!", "126", "$67", "gVb", "2mV", "&cG", "/#2", "/%B", "/!2"]
-tiempos = [0.03, 0.01, 0.01, 0.05, 0.02, 0.04, 0.05, 0.05, 0.03, 0.06, 0.06, 0.06]
+caracteres = ["123", "134", "111", "222", "333", "444", "445", "567", "122", "445", "555", "343"]
+tiempos = [92.3, 93.4, 91.1, 102.4, 113.6, 124.9, 125.0, 137.4, 92.2, 125.0, 136.2, 114.6]
 
 plt.figure(figsize=(10,6))
 plt.bar(range(len(caracteres)), tiempos, color="skyblue")
